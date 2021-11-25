@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.imgs{
+    display: flex ;
+    flex-direction: column;
+}
+
+.div{
+    display: flex;
+}
+
+.div img{
+    width: 30rem;
+    height: 25rem;
+    padding: 0.5rem;
+}
+
+/*******************************************QUOTES*****************************************************/
+
+.quote3{
+    width: 100%;
+    background-color: rgb(172, 164, 91);
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote_{
+    display: flex;
+    color:whitesmoke;
+    font-size:1.6rem;
+    padding-top: 2.4rem;
+}
+
+.quote_ i{
+    padding-right: 0.6rem;
+}
+
+#vvgq{
+        color:whitesmoke;
+        font-size: 1.6rem;
+        width: 80rem;
+        padding-left: 62rem;
+        justify-content: flex-end;
+}
+
+/*********************************************************************************************/
+
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    height: 8rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(236, 232, 226);
+    color: rgb(172, 164, 91) ;
+}
+
+
+/**************************************************************/
+
+.formbox{
+    padding-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+#contactus{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    padding-left: 6rem;
+}
+
+.social-icons{
+    margin-top: 2rem;
+}
+
+.social-icons a
+{
+    color: whitesmoke;
+    padding-top:2rem;
+}
+
+
+#contactus h2{
+    margin-bottom: 2rem;
+    color: whitesmoke;
+    font-size: 4rem;
+}
+
+.contactid{
+    color: whitesmoke;
+}
+
+.social-icons a:hover{
+    color:rgb(59, 91, 94);
+    transition: all 0.4s ease;
+}
